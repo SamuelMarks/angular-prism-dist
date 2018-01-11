@@ -663,7 +663,7 @@ var prism = createCommonjsModule(function (module) {
         document.addEventListener('DOMContentLoaded', self.Prism.fileHighlight);
     })();
 });
-var CodeblockComponent = /** @class */ (function () {
+var CodeblockComponent = (function () {
     /**
      * @param {?} elementRef
      */
@@ -711,7 +711,7 @@ CodeblockComponent.propDecorators = {
     'lang': [{ type: Input },],
     'reduce_indent': [{ type: Input },],
 };
-var CodeblockModule = /** @class */ (function () {
+var CodeblockModule = (function () {
     function CodeblockModule() {
     }
     return CodeblockModule;
@@ -732,5 +732,5 @@ CodeblockModule.ctorParameters = function () { return []; };
 /**
  * Generated bundle index. Do not edit.
  */
-export { CodeblockModule, CodeblockComponent as ɵa };
+export { CodeblockModule, CodeblockComponent };
 //# sourceMappingURL=angular-prism.es5.js.map

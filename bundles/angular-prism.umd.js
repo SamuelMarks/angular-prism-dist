@@ -667,7 +667,7 @@ var prism = createCommonjsModule(function (module) {
         document.addEventListener('DOMContentLoaded', self.Prism.fileHighlight);
     })();
 });
-var CodeblockComponent = /** @class */ (function () {
+var CodeblockComponent = (function () {
     /**
      * @param {?} elementRef
      */
@@ -715,7 +715,7 @@ CodeblockComponent.propDecorators = {
     'lang': [{ type: core.Input },],
     'reduce_indent': [{ type: core.Input },],
 };
-var CodeblockModule = /** @class */ (function () {
+var CodeblockModule = (function () {
     function CodeblockModule() {
     }
     return CodeblockModule;
@@ -735,7 +735,7 @@ CodeblockModule.decorators = [
 CodeblockModule.ctorParameters = function () { return []; };
 
 exports.CodeblockModule = CodeblockModule;
-exports.ɵa = CodeblockComponent;
+exports.CodeblockComponent = CodeblockComponent;
 
 Object.defineProperty(exports, '__esModule', { value: true });
 

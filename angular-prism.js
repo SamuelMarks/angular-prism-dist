@@ -922,5 +922,5 @@ CodeblockModule.ctorParameters = () => [];
  * Generated bundle index. Do not edit.
  */
 
-export { CodeblockModule, CodeblockComponent as ɵa };
+export { CodeblockModule, CodeblockComponent };
 //# sourceMappingURL=angular-prism.js.map
